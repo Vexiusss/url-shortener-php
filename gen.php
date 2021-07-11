@@ -12,7 +12,7 @@ fclose($myfile);
 $myfile1 = fopen('copy/' . $end . '.html', 'w') or die("ujsciusdnfiks");
 
 $txt1 = '
-<html><head></head><body><p>localhost/challenge/page'. $end .'.html</p></body></html>
+<html><head></head><body><p>localhost/challenge/page/'. $end .'.html</p></body></html>
 ';
 fwrite($myfile1, $txt1);
 fclose($myfile1);
